@@ -1,0 +1,48 @@
+# Ignore composer files
+vendor/
+composer.phar
+composer.lock
+
+# Ignore PHPStorm files
+.idea/
+
+# Ignore NetBeans project files
+nbproject/
+
+# Ignore system-specific runtime files
+Thumbs.db
+.DS_Store
+
+# Ignore user-specific files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+
+# Ignore logs and caches
+log/
+logs/
+temp/
+tmp/
+.cache/
+
+# Ignore generated files
+*.log
+*.pot
+*.mo
+*.min.css
+*.min.js
+
+# Ignore Composer's vendor directory
+/vendor
+
+# Ignore PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+
+# Ignore PHPStorm metadata
+.phpstorm.meta.php
+
+# Ignore Homestead
+Homestead.yaml
+Homestead.json
